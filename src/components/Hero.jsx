@@ -23,7 +23,7 @@ const Hero = () => {
       </div>
       <div>
         <a href="/resume.pdf">
-        <button  className='px-8 py-3 bg-secondary flex space-x-[48px] rounded-md'><span>Read Her CV/Resume</span> <img src={arrow} alt="profile"  /> </button> </a>
+        <button  className='px-8 py-3 bg-secondary flex space-x-[48px] rounded-md hover:bg-green-800'><span>Read Her CV/Resume</span> <img src={arrow} alt="profile"  /> </button> </a>
       </div>
 
       </div>

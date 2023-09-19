@@ -91,9 +91,9 @@ const Contact = () => {
         <div className="mt-10">
           <button
             type="submit"
-            className="block w-full rounded-md bg-secondary px-3.5 py-3 text-center  text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            className="block w-full rounded-md bg-secondary px-3.5 py-3 text-center  text-white shadow-sm hover:bg-green-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
-            Shoot Me A Message
+            Shoot Her A Message
           </button>
         </div>
       </form>
