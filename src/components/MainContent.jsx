@@ -1,5 +1,3 @@
-
-
 import Navbar from "./Navbar"
 import Contact from "./Contact"
 import Hero from "./Hero"
@@ -11,7 +9,7 @@ import Footer from "./Footer"
 const MainContent = () => {
   return (
     <div>   
-    <Navbar />
+    <Navbar/>
 
     <Hero />
     <Projects/>
