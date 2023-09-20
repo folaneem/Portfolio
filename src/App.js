@@ -1,21 +1,23 @@
-import Contact from './components/Contact';
-import Faq from './components/Faq';
-import Footer from './components/Footer';
-import Hero from './components/Hero';
-import Navbar from './components/Navbar';
-import Projects from './components/Projects';
+
+import React, { useState, useEffect } from 'react';
+
+import MainContent from "./components/MainContent";
+import Loading from "./components/Loading";
+
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 5000); 
+  }, []);
+
+
   return (
-    <div className="bg-primary w-full overflow-hidden text-white font-kreon">
-   
- 
-    <Navbar/>
-    <Hero/>
-    <Projects/>
-    <Faq/>
-    <Contact/>
-   <Footer/>
+    <div className="bg-primary  w-full overflow-hidden text-white font-kreon">
+      {loading ? <Loading /> : <MainContent />}
   </div>
   );
 }
