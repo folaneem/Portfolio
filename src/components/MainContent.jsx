@@ -4,18 +4,42 @@ import Hero from "./Hero"
 import Projects from "./Projects"
 import Faq from "./Faq"
 import Footer from "./Footer"
-
+import Skills from "./Skills"
+import {Zoom,Fade} from 'react-reveal';
 
 const MainContent = () => {
   return (
-    <div>   
-    <Navbar/>
+    <div>  
+      <Fade>
+      <Navbar/>
+        </Fade> 
+      
 
-    <Hero />
-    <Projects/>
-    <Faq/>
-    <Contact/>
-   <Footer/>
+<Fade left>
+  <Hero/>
+</Fade>
+
+<Fade right>
+<Skills/>
+</Fade>
+<Fade>
+<Projects/>
+
+</Fade>
+
+<Zoom>
+<Faq/>
+
+</Zoom>
+<Zoom>
+<Contact/>
+
+</Zoom>
+<Fade bottom>
+<Footer/>
+
+</Fade>
+    
     </div>
   )
 }

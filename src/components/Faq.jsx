@@ -23,11 +23,11 @@ const Faq = () => {
     setActiveIndex(activeIndex === index ? null : index);
   };
   return (
-    <div className="max-w-7xl mx-auto mt-8  px-6 py-24 sm:py-32 lg:px-8">
+    <div className="max-w-7xl mx-auto mt-8  px-6 py-24 sm:py-32 lg:px-8" id="faq">
        <div className="pb-20 ">
-        <h2 className="text-3xl  tracking-tight text-white sm:text-4xl">Frequently Asked Questions</h2>
+        <h2 className="text-3xl  tracking-tight text-white sm:text-4xl">Frequently Asked Questions❓</h2>
         <p className="mt-2 text-lg leading-8 text-darktext">
-       Here are common question that i get asked a lot by my clients.
+       Here are common question that i get asked by some of my clients.
         </p>
       </div>
       {/* <h1 className="text-3xl mb-24">Frequently Asked Questions</h1> */}
@@ -38,7 +38,7 @@ const Faq = () => {
               className="p-4 cursor-pointer flex justify-between items-center"
               onClick={() => toggleAccordion(index)}
             >
-              <h2 className="text-lg ">{faq.question}</h2>
+              <h2 className="text-base sm:text-lg ">{faq.question}</h2>
               <svg
                 className={`w-6 h-6 transition-transform transform ${
                   activeIndex === index ? "rotate-45" : "rotate-0"

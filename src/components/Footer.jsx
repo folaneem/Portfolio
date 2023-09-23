@@ -2,9 +2,9 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className=" mx-auto max-w-7xl px-6 lg:py-24 py-20 lg:pb-2 lg:px-8">
+    <footer  className=" mx-auto max-w-7xl px-6 lg:py-24 py-20 lg:pb-2 lg:px-8">
     <div className="container mx-auto flex flex-col sm:flex-row justify-between items-left pb-14">
-      <div className='w-1/2'>
+      <div className=' w-full sm:w-1/2'>
       <h1 className='font-kenia text-4xl py-4'>Neemat.Design</h1>  
         <p className="text-darktext">A product designer who is also an expert in user experience and user interface design, and who is committed to creating digital products that are successful overall.</p>
   

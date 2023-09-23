@@ -1,11 +1,12 @@
 import React from 'react'
-import arrow from "../assets/arrow.svg"
+import {Fade} from 'react-reveal';
+
 
 
 
 const Work = ({title,img,description,name}) => {
   return (
-   
+   <Fade left>
         <div className='mx-auto max-w-7xl flex py-10 space-x-[20px] items-center grid grid-cols-1 gap-x-8 gap-y-6  leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10'>
           <div className='w-full'>
           <img src={img} alt={name} className=' rounded-md '/>
@@ -21,7 +22,7 @@ const Work = ({title,img,description,name}) => {
         </div>
         
         </div>
-   
+        </Fade>
   )
 }
 

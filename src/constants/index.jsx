@@ -5,27 +5,90 @@ import majorlink from "../assets/majorlink.png"
 import thrive from "../assets/thrive.png"
 
 
-// export const navLinks = [
-//     {
-//       id: "about",
-//       title: "About Neemat",
-//       href: "./",
-//       current: true
-//     },
-//     {
-//       id: "works",
-//       title: "Her Works",
-//       href: "./projects",
-//       current: false
-//     },
-//     {
-//       id: "contact",
-//       title: "Contact Her",
-//       href: "./contact",
-//       current: false
-//     },
+export const navLinks = [
+    {
+      id: "about",
+      title: "About",
+      href: "#about",
+    },
+    {
+      id: "contact",
+      title: "Skills",
+      href: "#skill",
+    },
+    {
+      id: "projects",
+      title: "Projects",
+      href: "#projects",
+    },
+    {
+      id: "contact",
+      title: "FAQs",
+      href: "#faq",
+    },
+    {
+      id: "contact",
+      title: "Contact",
+      href: "#contact",
+    },
    
-//   ];
+  ];
+
+
+  export const skill = [
+    {
+      id: "research",
+      title: "User Research",
+      
+    },
+    {
+      id: "proto",
+      title: "Prototyping",
+      
+    },
+    {
+      id: "wire",
+      title: "Wireframing",
+      
+    },
+    
+    {
+      id: "uides",
+      title: "User Interface (UI) Design",
+      
+    },
+    {
+      id: "interaction",
+      title: "Interaction Design",
+      
+    },
+    {
+      id: "responsive",
+      title: "Responsive Design",
+      
+    },
+    {
+      id: "strategy",
+      title: "Product Strategy",
+      
+    },
+    {
+      id: "centered",
+      title: "User-Centered Design",
+      
+    },
+    {
+      id: "collab",
+      title: "Collaboration",
+      
+    },
+    {
+      id: "access",
+      title: "Accessibility",
+      
+    },
+   
+  ];
 
   // export const projectLinks = [
   //   {

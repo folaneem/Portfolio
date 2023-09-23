@@ -9,6 +9,7 @@ module.exports = {
         primary: "#171219",
         secondary: "#5C946E",
         tertiary: "#FFD4B8",
+        skill:"linear-gradient(209deg, rgba(0, 237, 100, 0.06) 35.63%, rgba(255, 255, 255, 0.03) 133.15%)",
         darktext:"#BDC6D3",
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 124, 0.1)",
