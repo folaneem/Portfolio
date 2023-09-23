@@ -1,13 +1,16 @@
 import React from 'react'
 import profile from "../assets/profile.svg"
 import arrow from "../assets/arrow.svg"
+
 // import flag from "../assets/flag.svg"
 
 const Hero = () => {
   return (
-    <div className='mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8  lg:flex justify-between items-left  '>
+    <div className='mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8  lg:flex justify-between items-left    ' id="about">
       <div className='pb-[40px]'>
       <img src={profile} alt="profile"  />
+
+
       </div>
       <div className='max-w-4xl space-y-[32px]'>
       <div className='space-y-[32px]'>
@@ -25,6 +28,9 @@ const Hero = () => {
         <a href="/resume.pdf">
         <button  className='px-8 py-3 bg-secondary flex space-x-[48px] rounded-md hover:bg-green-800'><span>Read Her CV/Resume</span> <img src={arrow} alt="profile"  /> </button> </a>
       </div>
+      <div className='pb-[40px]'>
+      </div>
+      
 
       </div>
       
